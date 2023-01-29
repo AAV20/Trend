@@ -1,0 +1,272 @@
+.agencytitle{
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    
+}
+
+.agencyconttwo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.agencytitle>h3{
+    color: #909090;
+    font-size: 1.2vw;
+}
+
+.agencytitle>h2{
+    color: #25241a;
+    font-size: 2.5vw;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.agencyimage{
+    width: 100%;
+}
+
+.agencyimgblocktwo{
+    width: 50%;
+}
+
+.anotherimg{
+    width: 100%;
+}
+
+.anothercont>h2{
+    color: #212529;
+    font-size: 2.21vw;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
+.anothercont>p{
+    color: #666262;
+    font-size: 1.2vw;
+    line-height: 30px;
+    padding-bottom: 20px;
+
+}
+
+.anotherlist>li::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 0 16px 16px 0;
+    border-color: transparent #f1c111 transparent transparent;
+    border-style: solid;
+   
+}
+
+.videoblock{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+iframe{
+   padding-bottom: 100px;
+
+}
+
+.creativimagetwo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.avatarimg{
+    width: 15%;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin: auto !important;
+    align-items: center;
+    width: 50%;
+}
+
+.texts>p{
+    color: #212529;
+    font-size: 1.5vw;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.textavatar{
+    color: #666262;
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 992px){
+
+    .agencytitle>h3{
+        color: #909090;
+        font-size: 1.8vw;
+        letter-spacing: 2px;
+
+    }
+    
+    .agencytitle>h2{
+        color: #25241a;
+        font-size: 4.2vw;
+        width: 91%;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+  
+    .anothercont>h2{
+        font-size: 2.5vw;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .anothercont>p{
+        color: #666262;
+        font-size: 1.6vw;
+        line-height: 30px;
+        padding-bottom: 15px;
+    
+    }
+
+    .textavatar{
+        font-size: 1.3vw;
+    }
+
+    .anotherlist>li{
+        font-size: 1.5vw;
+    } 
+
+    .texts>p{ 
+        font-size: 2.2vw;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+
+    .texts{
+        width: 71%;
+    }
+
+    iframe{
+        width: 74vw;
+    }
+
+    .avatarimg{
+        width: 16%;
+    }
+
+    .textavatar{
+        font-size: 1.8vw;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .anothercont>h2{
+        font-size: 2.7vw;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+    
+    .anothercont>p{
+        color: #666262;
+        font-size: 1.7vw;
+        line-height: 25px;
+        padding-bottom: 10px;
+    
+    }
+
+    .textavatar{
+        font-size: 1.4vw;
+    }
+
+    .agencyconttwo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agencyimgblocktwo{
+        padding-bottom: 20px;
+    }
+
+    iframe{
+        width: 74vw;
+    }
+
+    .agencyimgblocktwo{
+        width: 85%;
+    }
+    
+    .anotherimg{
+        width: 100%;
+    }
+
+    .anothercont{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .agencytitle>h3{
+        font-size: 3vw;
+        letter-spacing: 2px;
+    }
+    
+    .agencytitle>h2{
+        font-size: 30px;
+        width: 331px;
+        letter-spacing: 2px;
+    }
+
+    .agencyimgblocktwo{
+        width: 100%;
+    }
+
+    .anothercont>h2{
+        font-size: 23px;
+        line-height: 25px;
+    }
+    
+    .anothercont>p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .anothercont{
+        width: 225px;
+    }
+
+    .anotherlist>li{
+        font-size: 14px;
+        width: 300px;
+    }
+    
+    .texts{
+        width: 312px;
+    }
+    
+    .texts>p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+
+    .avatarimg{
+        width: 30%;
+    }
+
+    .textavatar{
+        font-size: 12px;
+    }
+
+}

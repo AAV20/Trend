@@ -1,0 +1,318 @@
+.footercontainer{
+    background-color: #171819;
+    width: 100%;
+    height: 533px;
+}
+
+.footercontent{
+    width: 80%;
+    margin: auto;
+   
+}
+
+.firsttitle{
+    color: #fff;
+    font-size: 3.5vw;
+    line-height: 85px;
+}
+
+.sp6{
+    color: #f1c111;
+}
+
+.sp7{
+    color: #666262;
+    font-size: 1.2vw;
+    text-align: center;
+    line-height: 30px;
+}
+
+li{
+    color: #666262;
+    font-size: 1.2vw;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.houselink{
+    display: block;
+    cursor: pointer;
+}
+
+.house{
+    position: relative;
+    top: 2px;
+    left: -2px;
+    cursor: pointer;
+}
+
+.footertitle{
+    color: #666262;
+    font-size: 1.2vw;
+    padding: 20px 0;
+}
+
+.tel2{
+    font-size: 1.2vw;
+    color: #f1c111;
+   cursor: pointer;
+}
+
+.email{
+    font-size: 1.2vw;
+    color: #f1c111;
+    cursor: pointer;
+}
+
+.house{
+    font-size: 1.2vw;
+    color: #f1c111;
+}
+
+.footertext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 0;
+}
+
+.endcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footercontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.anotherlink{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2vw;
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: #666262;
+    font-size: 1.1vw;
+}
+
+.icon{
+    color: #666262;
+    text-decoration: none;
+    /* font-size: 1.2vw; */
+    width: 3.4vw;
+}
+
+
+
+.icon:hover{
+    color: #f1c111;
+}
+
+.iconline{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .tel2{
+        width: 2vw !important;
+        height: 2vw !important;
+        color: #f1c111;
+       cursor: pointer;
+    }
+    
+    .email{
+        width: 2vw !important;
+        height: 2vw !important;
+        color: #f1c111;
+        cursor: pointer;
+    }
+    
+    .house{
+        width: 2vw !important;
+        height: 2vw !important;
+        color: #f1c111;
+    }
+
+    .liLink{
+       font-size: 1.5vw;
+
+    }
+
+    .houselink{
+       font-size: 1.5vw;
+
+    }
+
+    .footertitle{
+       font-size: 1.7vw;
+
+    }
+
+    .sp7{
+       font-size: 1.5vw;
+
+    }
+
+    .links{
+       font-size: 1.5vw;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .footertext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .endcontent{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .footercontent{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .firsttitle{
+        font-size: 3vw;
+        line-height: 35px;
+    }
+
+    .sp7{
+        font-size: 1.5vw;
+        text-align: center;
+        line-height: 10px;
+        
+    }
+
+    .liLink{
+        font-size: 1.6vw;
+    }
+
+    .tel2{
+        width: 1.6vw !important;
+        height: 1.6vw !important;
+        color: #f1c111;
+       cursor: pointer;
+    }
+    
+    .email{
+        width: 1.6vw !important;
+        height: 1.6vw !important;
+        color: #f1c111;
+        cursor: pointer;
+    }
+    
+    .house{
+        font-size: 2vw !important;
+        color: #f1c111;
+    }
+
+    .links{
+        font-size: 1.5vw;
+        padding: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footertext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .endcontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footercontent{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .firsttitle{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .sp7{
+        font-size: 10px;
+        text-align: center;
+        line-height: 10px;
+        
+    }
+
+    .liLink{
+        font-size: 11px;
+    }
+
+    .tel2{
+        width: 12px !important;
+        height: 12px !important;
+        color: #f1c111;
+       cursor: pointer;
+    }
+    
+    .email{
+        width: 12px !important;
+        height: 12px !important;
+        color: #f1c111;
+        cursor: pointer;
+    }
+    
+    .house{
+        width: 16px !important;
+        height: 16px !important;
+        color: #f1c111;
+    }
+
+    .links{
+        font-size: 10px;
+        padding: 20px 0 20px 0;
+    }
+
+    .footertitle{
+        font-size: 2.7vw;
+ 
+     }
+
+     .houselink{
+        font-size: 12px;
+        line-height: 15px;
+     }
+
+     .footercontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footercontainer{
+        background-color: #171819;
+        width: 100%;
+        height: 578px;
+    }
+
+}

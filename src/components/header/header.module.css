@@ -1,0 +1,187 @@
+.headerblock{
+    width: 100%;
+    background-color: #0c8195;
+    padding: 5px;
+}
+
+.headerwidth{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    align-items: center;
+    width: 80%;
+}
+
+.iconlink{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.iconlink>h1{
+    font-weight: normal;
+    font-size: 2.1vw;
+}
+
+.navlinks{
+    text-decoration: none;
+    color: #fff;
+}
+
+a{
+    font-size: 2vw;
+}
+
+.trend{
+    width: 3vw !important;
+    height: 3vw !important;
+
+}
+
+
+.navigation:last-of-type{
+    border: 1px solid #f1c111;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6em 2em 0.8em 2em;
+    border-radius: 30px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.navigation>a{
+    font-size: 1.1vw;
+}
+
+.activecont{
+    color:#f1c111;
+    border: 1px solid #f1c111;
+    padding: .6em .8em .6em .8em;
+    border-radius: 20px;
+}
+
+.active{
+    color:#f1c111;
+}
+
+.burger{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .navigation{
+        display: none; 
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        position: fixed;
+        right: 4rem;
+        top: 7rem;
+        background: #057A8DFF;
+        padding: 1rem;
+        z-index: 999;
+        border-radius: 10%;
+    }
+    
+
+    .navbar a{
+        font-size: 2vw;
+        
+    }
+    .burger{
+        position: fixed;
+        right: 6.5rem;
+        display: block;
+        z-index: 999;
+        
+    }
+    
+   
+
+
+    .burgermenu{
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    
+
+    .navigation:last-of-type{
+        border: none;
+    }
+
+    .iconlink>h1{
+        font-weight: normal;
+        font-size: 3.4vw;
+    }
+
+    .trend{
+        width: 4vw !important;
+        height: 4vw !important;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .iconlink>h1{
+        font-weight: normal;
+        font-size: 3.4vw;
+    }
+
+    .trend{
+        width: 3.4vw !important;
+        height: 3.4vw !important;
+    
+    }
+
+    .burgermenu{
+        width: 4vw !important;
+        height: 4vw !important;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 375px) {
+    .iconlink>h1{
+        font-weight: normal;
+        font-size: 25px;
+    }
+
+    .trend{
+        width: 25px !important;
+        height: 25px !important;
+    
+    }
+
+    .burgermenu{
+        width: 25px !important;
+        height: 25px !important;
+        color: #fff;
+    }
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    .burger{
+        position: fixed;
+        right: 2.5rem;
+        display: block;
+        z-index: 999;
+        
+    }
+
+    .navbar a {
+        font-size: 5vw;
+    }
+}

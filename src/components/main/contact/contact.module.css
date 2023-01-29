@@ -1,0 +1,220 @@
+.contactsection{
+    width: 80%;
+    margin: auto;
+}
+
+.contactstart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8em 0;
+    line-height: 60px;
+}
+.contacttitle{
+    font-size: 2.5vw;
+    color: #15141a;
+
+}
+
+.contacttext{
+    color: #666262;
+    font-size: 1.2vw;
+    line-height: 40px;
+}
+
+.registration{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+
+.registration>input{
+    width: 100%;
+    height: 50px;
+    background-color: #f0f8ff;
+    border: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+.messageblock{
+    width: 50%;
+}
+
+.messageblock>textarea{
+    width: 100%;
+    height: 200px;
+    background-color: #f0f8ff;
+    border: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    color: #666262;
+    font-size: 18px;
+}
+
+.registrblock>form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sp9{
+    color: #f1c111;
+}
+
+.sp10{
+    color: #f1c111;
+}
+
+.sp11{
+    color: #f1c111;
+}
+
+.registbtnblock{
+    width: 25%;
+    padding-bottom: 8em;
+}
+
+.registrbtn{
+    width: 100%;
+    height: 50px;
+    background-color: #057a8d;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2vw;
+    color: #15141a;
+    cursor: pointer;
+}
+
+.registrbtn:hover{
+    color: #fff;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 992px) {
+    .contacttitle{
+        font-size: 42px;
+        color: #15141a;
+    
+    }
+    
+    .contacttext{
+        color: #666262;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    
+    .registration{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+    
+    .registration>input{
+        font-size: 1.7vw;
+    }
+    
+    .messageblock{
+        width: 80%;
+    }
+    
+    .messageblock>textarea{
+        font-size: 1.7vw;
+    }
+    
+
+    .registrbtn{
+       
+        font-size: 1.7vw;
+       
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .messageblock>textarea{
+        font-size: 1.8vw;
+    }
+    
+
+    .registrbtn{
+       
+        font-size: 1.8vw;
+       
+    }
+
+    .registration>input{
+        font-size: 1.8vw;
+    }
+
+    .registration{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .registration{
+        display: flex;
+        gap: 20px;
+        width: 90%;
+    }
+    
+    .registration>input{
+        width: 100%;
+        height: 50px;
+        background-color: #f0f8ff;
+        border: none;
+        border-radius: 10px;
+        text-indent: 10px;
+        font-size: 12px;
+    }
+    
+    .messageblock{
+        width: 90%;
+    }
+    
+    .messageblock>textarea{
+        width: 100%;
+        height: 150px;
+        background-color: #f0f8ff;
+        border: none;
+        border-radius: 10px;
+        text-indent: 10px;
+        color: #666262;
+        font-size: 12px;
+    }
+
+    .registbtnblock{
+        width: 50%;
+        padding-bottom: 8em;
+    }
+    
+    .registrbtn{
+        font-size: 14px;
+      
+    }
+    
+    .contacttitle{
+        font-size: 25px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext{
+        line-height: 25px;
+    }
+}

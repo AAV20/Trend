@@ -1,0 +1,473 @@
+.heroBg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(170deg, #057a8d 64%, #fff 30%);
+}
+
+.maincontainer{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+/* About */
+
+.imgGirl{
+    width: 100%;
+}
+
+
+.marketing{
+    width: 65%;
+    font-size: 2.9vw;
+    color: #fff;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    color: #171819;
+    padding: 0.7em 1em 0.7em 1em;
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.btn:hover{
+    background-color: black;
+    color: wheat;
+    transition: 1s ease;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.tel{
+    color: #fff;
+}
+
+.heroText{
+    line-height: 60px;
+}
+
+
+/* about */
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-left:30%;
+    padding: 50px 0;
+}
+
+.sp1,.sp2{
+    color: #f1c111;
+    font-size: 2.2vw;
+}
+
+.sp3{
+    color: #f1c111;
+    font-size: 1.2vw;
+}
+
+.conttitle{
+    width: 51%;
+    font-size: 2.2vw;
+    padding-bottom: 20px;
+    line-height: 60px;
+}
+
+.content>div>p{
+    width: 82%;
+    font-size: 1.2vw;
+    color: #666262;
+    line-height: 30px;
+}
+
+.aboutcont{
+    width: 100%;
+}
+
+
+.imgfluid{
+    width: 100%;
+
+}
+
+
+/* testimonisl */
+
+.testimonial{
+    margin: auto;
+    width: 80%;
+    padding: 5em 0;
+}
+
+.testimonialcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.another{
+    color: #909090;
+    font-size: 1.2vw;
+}
+
+.picture{
+    width: 85%;
+}
+
+.girlblock{
+    width: 50%;
+}
+
+.sp5{
+    color: #f1c111;
+    
+}
+
+.text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.text>p{
+    font-size: 2.2vw;
+    color: #252525;
+    line-height: 50px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    
+}
+
+.text>h3{
+    color: #909090;
+    font-size: 1.2vw;
+    padding-bottom: 50px;
+}
+
+.oficelocation{
+    width: 50%;
+    margin: auto;
+}
+
+.circle{
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 992px){
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .marketing{
+        width: 65%;
+        font-size: 3.9vw;
+        color: #fff;
+        line-height: 60px;
+        padding-bottom: 20px;
+    }
+
+    .picture{
+        width: 90%;
+    }
+
+
+    .girlblock{
+        width: 60%;
+    }
+
+    .btn{
+        color: #171819;
+        padding: 0.7em 1em 0.7em 1em;
+        border-radius: 30px;
+        background-color: #fff;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    /* about */
+
+    .heroBg {
+        width: 100%;
+        height: 175vh;
+        background: linear-gradient(170deg, #057a8d 64%, #fff 30%);
+    }
+
+    .content{
+        padding-top: 100px;
+    }
+    
+    .conttitle{
+        font-size: 3.5vw;
+        width: 90%;
+        padding-top: 100px;
+    }
+
+    .content>div>p{
+        width: 82%;
+        font-size: 1.7vw;   
+    }
+
+    .sp1,.sp2{
+        font-size: 3.5vw;
+    }
+
+
+    .imgfluid{
+        width: 100%;
+    }
+
+    .sp3{
+        font-size: 1.7vw;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .heroBg {
+        width: 100%;
+        height: 170vh;
+        background: linear-gradient(170deg, #057a8d 64%, #fff 30%);
+    }
+
+    .btn{
+        color: #171819;
+        padding: 0.7em 1em 0.7em 1em;
+        border-radius: 30px;
+        background-color: #fff;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    .content{
+        padding-top: 30px;
+    }
+
+    .conttitle{
+        font-size: 3.5vw;
+        width: 90%;
+    }
+
+    .content>div>p{
+        /* width: 92%; */
+        font-size: 2.7vw;   
+    }
+
+    .sp1,.sp2{
+        font-size: 3.5vw;
+    }
+
+    .heroImg{
+        width: 90%;
+    }
+
+    .girlblock{
+        width: 80%;
+    }
+
+    .imgfluid{
+        width: 100%;
+    }
+
+    .titlewidth{
+        width: 100%;
+    }
+
+    .content>div>p{
+        width: 100%;
+        font-size: 1.8vw;
+        color: #666262;
+        line-height: 30px;
+    }
+
+    .sp3{
+        font-size: 1.8vw;
+    }
+
+    .testimonialcont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    
+    .text>p{
+        font-size: 2.2vw;
+        color: #252525;
+        line-height: 30px;
+        padding-bottom: 30px;
+        font-weight: 500;
+        
+    }
+    
+    .text>h3{
+        color: #909090;
+        font-size: 1.8vw;
+        padding-bottom: 30px;
+    }
+
+    .another{
+        font-size: 1.4vw;
+    }
+
+    .sp5{
+        font-size: 1.4vw;
+
+    }
+
+    .marketing{
+        width: 90%;
+        font-size: 3.9vw;
+        color: #fff;
+        line-height: 60px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .conttitle{
+        font-size: 2.2vw;
+        line-height: 30px;
+    }
+
+    .sp3{
+        font-size: 16px;
+    }
+
+    .content>div>p{
+        width: 100%;
+        font-size: 3.5vw;
+        color: #666262;
+        line-height: 30px;
+    }
+
+    .marketing{
+        width: 100%;
+        font-size: 6.9vw;
+        line-height: 60px;
+    }
+
+    .btn{
+        color: #171819;
+        padding: 0.7em 1em 0.7em 1em;
+        border-radius: 30px;
+        background-color: #fff;
+        text-decoration: none;
+        font-size: 3.2vw;
+    }
+
+    .imgGirl{
+        width: 100%;
+    }
+
+    .girlblock{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .heroImg{
+        width: 100%;
+    }
+
+    .conttitle{
+        /* width: 261px; */
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .sp1,.sp2{
+        font-size: 25px;
+    }
+
+    .picture{
+        width: 100%;
+    }
+
+    .text{
+        width: 70%;
+    }
+    
+    .text>p{
+        font-size: 3.5vw;
+        line-height: 30px; 
+    }
+    
+    .text>h3{
+        
+        font-size: 3.5vw;
+        padding-bottom: 30px;
+    }
+
+    .another{
+        color: #909090;
+        font-size: 2.3vw;
+    }
+
+    .sp5{
+        color: #f1c111;
+        font-size: 2.3vw;
+        
+    }
+
+    /* .heroText{
+        padding: 30px 0px 0px 55px;
+    } */
+
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 340px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    .content>div>p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .conttitle{
+        font-size: 25px;
+    
+    }
+
+    .oficelocation{
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn {
+        font-size: 5vw;
+    }
+
+
+    .blogimages {
+        width: 90%;
+        display: flex;
+    }
+}

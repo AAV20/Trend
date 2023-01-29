@@ -1,0 +1,521 @@
+.creativesection{
+    width: 100%;
+}
+
+.creativeblock{
+    width: 80%;
+    margin: 100px auto;
+
+}
+
+.creativloopimg{
+    width: 50%;
+}
+
+.avimg{
+    width: 10%;
+}
+
+.creativtext>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+   
+}
+
+.creativtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.creativtitle>h3{
+    color: #17a2b8;
+    font-size: 1.2vw;
+    padding-bottom: 20px;
+
+}
+
+.creativtitle>h2{
+    color: #15141a;
+    font-size: 2.5vw;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.text{
+    color: #666262;
+    font-size: 1vw;
+    letter-spacing: 2px; 
+
+}
+
+.creativloopimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.anotherimg{
+    width: 100%;
+}
+
+.anotherimgblock{
+    width: 100%;
+}
+
+.textblock{
+   margin: 100px auto;
+   width: 80%;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.rowtitle1{
+    font-size: 2.5vw;
+    color: #212529;
+    line-height: 40px;
+    width: 60%;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+
+
+.rowparagraph1{
+    color: #666262;
+    font-size: 1.2vw;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.rowparagraph2{
+    color: #666262;
+    font-size: 1.2vw;
+    width: 60%;
+    padding-bottom: 20px;
+
+}
+
+.rowlist>li{
+    color: #666262;
+    font-size: 1vw;
+    padding-bottom: 20px;
+    
+}
+
+
+.rowlist>li::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 0 16px 16px 0;
+    border-color: transparent #f1c111 transparent transparent;
+    border-style: solid;
+   
+}
+
+.rowparagraph3{
+    color: #666262;
+    font-size: 1.2vw;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.rowtitle2{
+    color: #666262;
+    font-size: 1.2vw;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.rowparagraph4{
+    color: #666262;
+    font-size: 1.2vw;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+blockquote{
+    color: #666262;
+    font-size: 1.2vw;
+    width: 60%;
+    padding-bottom: 20px;
+    border-left: 5px solid rgba(0,0,0,0.05);
+    display: block;
+    margin: 42px 0;
+    padding: 14px 22px;
+    color: rgba(0,0,0,0.5);
+}
+
+.registrtitle{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.registrtitle>h3{
+   color: #212529;
+   font-size: 1.5vw;
+   padding-top: 50px;
+}
+
+
+textarea{
+    resize: none;
+}
+
+/* Comment */
+
+.commentblock{
+    margin: auto;
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.commenttitle{
+    padding-bottom: 30px;
+
+}
+
+.commenttext{
+    line-height: 25px;
+}
+
+.formblock{
+    padding-top: 20px;
+}
+
+
+.see{
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: .6em .8em .6em .8em;
+    letter-spacing: 1px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.see:hover{
+    color: red;
+    border: none;
+}
+
+@media screen and (max-width: 992px) {
+    .creativtitle>h3{
+        font-size: 2vw;
+        letter-spacing: 2px; 
+    }
+    
+    .creativtitle>h2{
+        font-size: 4.1vw;
+        width: 55%; 
+        line-height: 50px;      
+    }
+
+    .text{
+        font-size: 1.8vw;
+    }
+
+    .registrtitle{
+        width: 34.5%;
+    }
+
+    .rowparagraph3{
+        font-size: 1.8vw;
+        width: 90%;
+       
+    }
+    
+    .rowtitle2{
+        font-size: 1.8vw;
+        width: 90%;
+        
+    }
+    
+    .rowparagraph4{
+        font-size: 1.8vw;
+        width: 90%;
+
+    }
+
+    .rowtitle1{
+        font-size: 3vw;
+        width: 90%;
+        padding-bottom: 20px;
+        line-height: 50px;
+    }
+    
+    .rowparagraph1{
+        font-size: 1.8vw;
+        width: 90%;
+
+    }
+    
+    .rowparagraph2{
+        font-size: 1.8vw;
+        width: 90%;
+    }
+    
+    .rowlist>li{
+        font-size: 1.5vw;
+        width: 99%;
+        padding: 0;
+        line-height: 20px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .rowlist{
+        width: 90%;
+    }
+
+    blockquote{
+        font-size: 1.5vw;
+        width: 90%;
+    }
+
+    .registrtitle>h3{
+        font-size: 2.3vw;
+        letter-spacing: 0.8px;
+     }
+    
+     .avimg{
+        width: 20%;
+     }
+
+     .commentblock{
+        margin: auto;
+        width: 85%;
+        padding-bottom: 30px;
+    }
+    
+    .commenttitle{
+        padding-bottom: 30px;
+    
+    }
+    
+    .commenttext{
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .creativtitle>h3{
+        font-size: 2.5vw;
+        letter-spacing: 2px; 
+    }
+    
+    .creativtitle>h2{
+        font-size: 4.8vw; 
+        width: 72%;
+        line-height: 50px; 
+        letter-spacing: 3px;     
+    }
+
+    .registrtitle{
+        width: 34.5%;
+    }
+
+    .rowparagraph3{
+        font-size: 2vw;
+        width: 80%;
+       
+    }
+    
+    .rowtitle2{
+        font-size: 2vw;
+        width: 70%;
+        
+    }
+    
+    .rowparagraph4{
+        font-size: 2vw;
+        width: 80%;
+
+    }
+
+    .rowtitle1{
+        font-size: 4vw;
+        width: 70%;
+        padding-bottom: 20px;
+        line-height: 50px;
+    }
+
+    .rowtitle2{
+        font-size: 4vw;
+        width: 70%;
+        padding-bottom: 20px;
+        line-height: 50px;
+    }
+    
+    .rowparagraph1{
+        font-size: 2.5vw;
+        width: 80%;
+
+    }
+    
+    .rowparagraph2{
+        font-size: 2.5vw;
+        width: 80%;
+    }
+    
+    .rowlist>li{
+        font-size: 2vw;
+        width: 100%;
+        padding: 0;
+        line-height: 20px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .rowlist{
+        width: 70%;
+    }
+
+    blockquote{
+        font-size: 1.8vw;
+        width: 82%;
+    }
+
+    .registrtitle>h3{
+        font-size: 2.3vw;
+        letter-spacing: 0.8px;
+     }
+
+     .avimg{
+        width: 20%;
+     }
+
+     .text{
+        font-size: 2.2vw;
+     }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .creativtitle>h3{
+        font-size: 17px;
+        letter-spacing: 2px; 
+    }
+    
+    .creativtitle>h2{
+        font-size: 26px; 
+        width: 320px;
+        line-height: 50px; 
+        letter-spacing: 3px;     
+    }
+
+    .registrtitle{
+        width: 34.5%;
+    }
+
+    .rowparagraph3{
+        font-size: 2.5vw;
+        width: 80%;
+       
+    }
+    
+    .rowtitle2{
+        font-size: 2vw;
+        width: 70%;
+        
+    }
+    
+    .rowparagraph4{
+        font-size: 2.5vw;
+        width: 80%;
+
+    }
+
+    .rowtitle1{
+        font-size: 20px;
+        width: 100%;
+        padding-bottom: 20px;
+        line-height: 30px;
+    }
+
+    .rowtitle2{
+        font-size: 20px;
+        width: 100%;
+        padding-bottom: 20px;
+        line-height: 28px;
+    }
+    
+    .rowparagraph1{
+        font-size: 16px;
+        width: 100%;
+
+    }
+    
+    .rowparagraph2{
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .rowlist>li{
+        font-size: 2.5vw;
+        width: 100%;
+        padding: 0;
+        line-height: 20px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .rowlist{
+        width: 90%;
+    }
+
+    blockquote{
+        font-size: 2.8vw;
+        width: 90%;
+    }
+
+    .registrtitle>h3{
+        font-size: 18px;
+        letter-spacing: 0.8px;
+     }
+
+     .avimg{
+        width: 35%;
+     }
+
+     .text{
+        font-size: 16px;
+     }
+
+     .commenttitle{
+        padding-bottom: 30px;
+        font-size: 18px;
+    
+    }
+    
+    .commenttext{
+        line-height: 25px;
+        font-size: 16px;
+
+    }
+    
+    
+}

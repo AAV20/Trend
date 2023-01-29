@@ -1,0 +1,22 @@
+[
+    
+    {
+        "id": 2,
+        "img": "./picture/blogimage2.jpg",
+        "design": "DESIGN",
+        "benefits": "Why Truly Accessible Design Benefits Everyone"
+    },
+    {
+        "id": 3,
+        "img": "./picture/blogimage3.jpg",
+        "lifestyle": "LIFESTYLE",
+        "humble": "Be Humble About What You Know"
+    },
+    {
+        "id": 4,
+        "img": "./picture/blogimage4.jpg",
+        "coding": "CODING",
+        "accessible": "The Mistakes I Made As a Coding Beginner"
+
+    }
+]

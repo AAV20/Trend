@@ -1,0 +1,409 @@
+.blogsection{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blogtitle{
+    color: #15141a;
+    text-align: center;
+    font-size: 2.9vw;
+    padding: 2em 0;
+}
+
+.oficegirl{
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+    /* background: linear-gradient(transparent,rgba(0,0,0,0.95)) */
+}
+
+.blogimg{
+    width: 30%;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+
+.oficeblock{
+    width: 100%;
+    display: flex;
+}
+
+.oficeparent{
+    display: flex;
+    gap: 35px;
+}
+
+.blogimages{
+    width: 100%;
+    display: flex;
+    
+}
+
+.loopblock{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.benefitslink{
+    width: 16.9vw;
+    font-size: 1.1vw;
+    color: #404040;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+.benefitslink:hover{
+    color: #f1c111;
+}
+
+.design{
+    color: #dc3545;
+    font-size: 1.1vw;
+    padding-bottom: 10px;
+}
+
+.lifestyle{
+    font-size: 1.1vw;
+    padding-bottom: 10px;
+    color: #28a748;
+}
+
+.humblelink{
+    width: 16.9vw;
+    font-size: 1.1vw;
+    color: #404040;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.humblelink:hover{
+    color: #f1c111;
+}
+
+.coding{
+    font-size: 1.1vw;
+    padding-bottom: 10px;
+    color: #007bff !important;
+}
+
+.accessiblelink{
+    width: 16.9vw;
+    font-size: 1.1vw;
+    color: #404040;
+    line-height: 30px;
+    cursor: pointer; 
+}
+
+.accessiblelink:hover{
+    color: #f1c111;
+    
+}
+
+.textinfo{
+    position: relative;
+    top: 300px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #f1c111;
+}
+
+h3{
+    margin-left: 30px;
+}
+
+.text{
+    font-size: 1.8vw;
+    color:#dc3545;
+}
+
+.creative{
+    display: inline-block;
+    color: #17a2b8;
+    font-size: 1vw;
+    margin-left: 30px;
+}
+
+/* envelopblock */
+
+.envelopblock{
+    padding: 100px 0;
+}
+
+.envelopcontent{
+    display: flex;
+    align-items: center;
+}
+
+.envelopwidth{
+    width: 50%;
+}
+
+.envelopflex{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.envelopimg{
+    width: 80%;
+}
+
+.sp8{
+    display: block;
+    color: #6c757d;
+    font-size: 12.8px;
+}
+
+.emailplace{
+    color: #909090;
+    font-size: 1.1vw;
+}
+
+.emailptitle{
+    color: #212529;
+    font-size: 2.2vw;
+   
+}
+
+.emailpinput{
+    background-color: #f0f8ff;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    text-indent: 10px;
+    
+}
+
+.emailopcheck{
+    color: #212529;
+    font-size: 1vw;
+}
+
+.emailopbtn{
+    width: 100%;
+    height: 50px;
+    background-color: #f1c111;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+.emailopbtnblock{
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .textinfo{
+        position: relative;
+        top: 250px;
+        line-height: 40px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blogtitle{
+        font-size: 3.9vw;
+        padding: 2em 0;
+    }
+
+    .oficeparent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design{
+        font-size: 1.8vw;
+    }
+
+    .benefitslink{
+        width: 16.9vw;
+        font-size: 1.6vw;
+    }
+    
+
+    .lifestyle{
+        font-size: 1.8vw;
+        padding-bottom: 10px;
+        color: #28a748;
+    }
+    
+    .humblelink{
+        width: 16.9vw;
+        font-size: 1.6vw; 
+    }
+
+    .coding{
+        font-size: 1.8vw;
+        
+    }
+    
+    .accessiblelink{
+        width: 16.9vw;
+        font-size: 1.6vw;
+    }
+
+    .creative{
+        font-size: 1.8vw;
+    }
+
+    .emailopcheck{
+        font-size: 1.8vw;
+    }
+
+    .emailplace{
+        font-size: 1.7vw;
+
+    }
+
+    .emailptitle{
+        font-size: 3vw;
+
+    }
+
+    .envelopcontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .envelopwidth{
+        width: 80%;
+    }
+    
+    .envelopflex{
+       
+        line-height: 50px;
+    }
+    
+    .envelopimg{
+        width: 100%;
+    }
+
+    .text{
+        font-size: 2.8vw;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .textinfo{
+        position: relative;
+        top: 135px;
+        line-height: 20px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    .blogtitle{
+        font-size: 30px;
+        padding: 2em 0;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+    
+    .creative{
+        display: inline-block;
+        color: #17a2b8;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .benefitslink{
+        font-size: 11px;
+    }
+
+    .loopblock{
+        width: 350px;
+    }
+
+    .design{
+        font-size: 15px;
+    }
+    
+    .lifestyle{
+        font-size: 15px;
+    }
+    
+    .humblelink{
+        width: 16vw;
+        font-size: 11px;
+    }
+
+    .coding{
+        font-size: 15px;
+    }
+    
+    .accessiblelink{
+        font-size: 11px;
+    }
+
+    .blogimg{
+        width: 43%;
+    }
+    
+    .envelopwidth {
+        width: 90%;
+    }
+
+    .emailplace{
+        color: #909090;
+        font-size: 16px;
+    }
+    
+    .emailptitle{
+        color: #212529;
+        font-size: 25px;
+       
+    }
+    
+    .emailpinput{
+        background-color: #f0f8ff;
+        width: 100%;
+        height: 50px;
+        border: none;
+        border-radius: 6px;
+        text-indent: 10px;
+        
+    }
+    
+    .emailopcheck{
+        color: #212529;
+        font-size: 12px;
+    }
+
+    .envelopimg{
+        width: 100%;
+    }
+
+    .blogsection {
+        width: 87%;
+        margin: 0 auto;
+    }
+}
