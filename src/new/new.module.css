@@ -1,0 +1,210 @@
+.newsection{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.minblocks{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.blocktext{
+    width: 50%;
+}
+
+.getimgwidth{
+    width: 25%;
+}
+
+.getimg{
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    height: 11.4vw;
+}
+
+.callimg{
+    display: flex;
+    flex-direction: column;
+}
+
+.newtitle{
+    padding: 100px 0 100px 0;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+a{
+    color: #252629;
+}
+
+.newtlink>p{
+    font-size: 1.1vw;
+    line-height: 22px;
+}
+
+.newtlink>h2{
+    font-size: 1.7vw;
+    padding-bottom: 20px;
+}
+
+/* TechNews */
+
+.newblock{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 100px auto;
+   width: 50%;
+}
+
+.newtitletwo{
+    font-size: 2.5vw;
+    padding: 50px 0 30px 0;
+}
+
+.newdescr{
+    line-height: 26px;
+}
+
+/* pagination */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagnum{
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pagnum:hover{
+    color: #f1c111;
+}
+
+.load{
+   position: relative;
+   left: 36vw;
+}
+
+@media screen and (max-width: 992px){
+    .getimgwidth {
+        width: 37%
+    }
+
+    .getimg {
+        height: 20vw;
+    }
+
+    .newtlink>p{
+        font-size: 1.8vw;
+    }
+
+    .newtlink>h2 {
+        font-size: 2.7vw;
+        padding-bottom: 20px;
+    }
+
+    .blocktext {
+        width: 59%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .newtitle{
+        font-size: 5.3vw;
+    }
+
+    .newtlink>p{
+        font-size: 2.5vw;
+    }
+
+    .minblocks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocktext{
+        width: 100%;
+    }
+
+    .newtlink>h2 {
+        font-size: 3.7vw;
+        padding-bottom: 20px;
+    }
+
+    .getimgwidth {
+        width: 50%
+    }
+
+    .getimg {
+        height: 27.4vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .newtitle{
+        font-size: 2vw;
+    }
+
+    .minblocks{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .getimg{
+        width: 100%;
+        height: 50vw;
+    }
+    
+    .newtitle{
+        font-size: 25px;
+    }
+
+    .getimgwidth{
+        width: 100%;
+    }
+
+    .blocktext>h2{
+        width: 100%;
+    }
+
+    .blocktext{
+        width: 100%;
+    }
+
+    .newtlink>p{
+        font-size: 3.1vw;
+    }
+
+    .newtlink>h2{
+        font-size: 3.7vw;
+        padding-bottom: 15px;
+    }
+
+    .newtitle{
+        padding: 50px 0 50px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .newblock{
+        width: 75%;
+    }
+    
+
+    .newtitletwo{
+        width: 100%;
+        font-size: 20px;
+        padding: 20px 0 20px 0;
+    }
+}

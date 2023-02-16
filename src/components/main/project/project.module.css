@@ -73,6 +73,12 @@
     outline: none;
 }
 
+.load{
+    position: relative;
+    top: 75px;
+    left: 42vw;
+}
+
 @media screen and (max-width: 992px) {
     .slidetitle{
         font-size: 3.2vw;

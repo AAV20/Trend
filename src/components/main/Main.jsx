@@ -5,7 +5,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
  
  
-export default function Maingreen() { 
+export default function Main() { 
   const [maingirl,setMaingirl]=useState([]) 
     useEffect(()=>{ 
         fetch('https://api-generator.retool.com/Qwh9Kp/datagirl') 
@@ -31,8 +31,7 @@ export default function Maingreen() {
                      </div> 
                      <div className={style.phone} > 
                         <LocalPhoneIcon className={style.tel}/> 
-                        <p>+ 99 080 070 4224</p> 
-           
+                        <Link className={style.phonenumber}>+ 99 080 070 4224</Link> 
                      </div> 
                   </div>
              

@@ -57,6 +57,7 @@ a{
 
 .navigation>a{
     font-size: 1.1vw;
+    color: #fff;
 }
 
 .activecont{
@@ -84,31 +85,30 @@ a{
     .navbar{
         display: flex;
         flex-direction: column;
+        width: 100%;
         gap: 2vw;
-        position: fixed;
-        right: 4rem;
-        top: 7rem;
+        position: absolute;
+        right: 0;
+        top: 7.5rem;
+        text-align: center;
         background: #057A8DFF;
         padding: 1rem;
         z-index: 999;
-        border-radius: 10%;
+        /* border-radius: 10%; */
     }
     
 
     .navbar a{
         font-size: 2vw;
-        
+        color: #fff;
     }
     .burger{
-        position: fixed;
         right: 6.5rem;
         display: block;
         z-index: 999;
+        color: #fff;
         
     }
-    
-   
-
 
     .burgermenu{
         width: 42px !important;
@@ -174,7 +174,6 @@ a{
 
 @media screen and (max-width: 375px) {
     .burger{
-        position: fixed;
         right: 2.5rem;
         display: block;
         z-index: 999;

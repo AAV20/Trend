@@ -51,17 +51,17 @@ export default function Footer() {
                    <div>
                       <ul className={style.anotherlink}>
                         <li>
-                            <Link className={style.links} to='/blog'>
+                            <Link className={style.links} to='stories'>
                               Stories
                             </Link>
                         </li>
                         <li>
-                          <Link className={style.links} to='/blog'>
-                            Work with us
+                          <Link className={style.links} to='/video'>
+                            Video
                           </Link>
                         </li>
                         <li>
-                          <Link className={style.links} to='/blog'>
+                          <Link className={style.links} to='privacy'>
                             Privacy
                           </Link>
                         </li>

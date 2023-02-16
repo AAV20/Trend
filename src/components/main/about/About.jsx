@@ -39,12 +39,13 @@ You are<span className={style.sp3}> allowed </span> to use this template for com
         </div>
          {
             loading?
-            <ClipLoader className={style.circle} 
+            <ClipLoader  
                 color={'#f1c111'}
                 loading={loading}
                 size={50}
                 aria-label="Loading Spinner"
                 data-testid="loader"
+                className={style.load}
               />
               :
               

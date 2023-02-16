@@ -3,25 +3,26 @@ import { Link } from 'react-router-dom'
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import style from './header.module.css'
 import { Fade as Hamburger } from 'hamburger-react'
-import { useState,useRef,useEffect } from 'react';
+import { useState } from 'react';
+
 
 
 
 export default function Header() {
 let [open, setOpen] = useState(false)
-const nav = useRef()
-function scroll() {
-    if(window.scrollY > 70) {
-        nav.current.style.color = 'red'
-    }else{
-        nav.current.style.color = 'white'}
-}
-  useEffect(() => {
-    window.addEventListener("scroll", scroll)
-    return () => {
-      window.removeEventListener('scroll',scroll)
-    }
-  },[]);
+// const nav = useRef()
+// function scroll() {
+//     if(window.scrollY > 70) {
+//         nav.current.style.color = 'red'
+//     }else{
+//         nav.current.style.color = 'white'}
+// }
+//   useEffect(() => {
+//     window.addEventListener("scroll", scroll)
+//     return () => {
+//       window.removeEventListener('scroll',scroll)
+//     }
+//   },[]);
   return (
     <div className={style.headerblock}>
             
@@ -42,6 +43,10 @@ function scroll() {
                   <NavLink className={({isActive})=>(isActive? style.active :"")} to='/blog'>
                       Blog
                   </NavLink>
+
+                  <NavLink className={({isActive})=>(isActive? style.active :"")} to='/new'>
+                      New
+                  </NavLink>
                   
                   <NavLink className={({isActive})=>(isActive? style.activecont :"")} to='/contact'>
                     Contact
@@ -51,7 +56,8 @@ function scroll() {
               </div>
               <div className={style.burger} onClick={() => {
                         setOpen(!open)
-                      }} ref={nav}>
+                      }}>
+                         {/* ref={nav} */}
                       <Hamburger className={style.burgermenu} />
                   </div>
           </div>

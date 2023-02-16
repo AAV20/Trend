@@ -216,6 +216,12 @@ h3{
     width: 100%;
 }
 
+.load{
+    position: relative;
+    top: 30px;
+    left: 38vw;
+}
+
 @media screen and (max-width: 992px) {
     .textinfo{
         position: relative;
@@ -308,6 +314,12 @@ h3{
         font-size: 2.8vw;
     }
     
+}
+
+@media screen and (max-width: 768px) {
+    .emailopbtn{
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -405,5 +417,9 @@ h3{
     .blogsection {
         width: 87%;
         margin: 0 auto;
+    }
+
+    .emailopbtn{
+        font-size: 4.3vw;
     }
 }

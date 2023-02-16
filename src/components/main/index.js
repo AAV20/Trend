@@ -1,6 +1,6 @@
 import React from 'react'
 import About from './about/About'
-import Maingreen from './Maingreen'
+import Main from './Main'
 import Project from './project/Project'
 import Testimonial from './Testimonial'
 
@@ -9,7 +9,7 @@ import Testimonial from './Testimonial'
 export default function Parent() {
   return (
     <div>
-        <Maingreen/>
+        <Main/>
         <About/>
         <Project/>
         <Testimonial/>

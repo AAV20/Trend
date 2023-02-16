@@ -65,6 +65,7 @@ export default function Blog() {
                 size={50}
                 aria-label="Loading Spinner"
                 data-testid="loader"
+                className={style.load}
               />
               :
                     <div className={style.loopblock}>

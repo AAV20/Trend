@@ -59,12 +59,13 @@ export default function Creative() {
                      </div>
                      {
             loading?
-            <ClipLoader className={style.circl}
+            <ClipLoader 
                 color={'#f1c111'}
                 loading={loading}
                 size={50}
                 aria-label="Loading Spinner"
                 data-testid="loader"
+                className={stylee.load}
               />
               :
                      <div className={stylee.creativloop}>

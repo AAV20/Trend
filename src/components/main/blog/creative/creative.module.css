@@ -222,6 +222,11 @@ textarea{
     border: none;
 }
 
+.load{
+    position: relative;
+    left: 37vw;
+}
+
 @media screen and (max-width: 992px) {
     .creativtitle>h3{
         font-size: 2vw;
@@ -230,7 +235,7 @@ textarea{
     
     .creativtitle>h2{
         font-size: 4.1vw;
-        width: 55%; 
+        width: 90%; 
         line-height: 50px;      
     }
 
@@ -328,10 +333,11 @@ textarea{
     }
     
     .creativtitle>h2{
-        font-size: 4.8vw; 
-        width: 72%;
+        font-size: 3.5vw; 
+        width: 100%;
         line-height: 50px; 
-        letter-spacing: 3px;     
+        letter-spacing: 3px; 
+        font-weight: bold;    
     }
 
     .registrtitle{

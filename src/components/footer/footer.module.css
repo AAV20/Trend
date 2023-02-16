@@ -123,6 +123,179 @@ li{
     cursor: pointer;
 }
 
+/* Stories */
+
+.storiescontent{
+    background: linear-gradient(120deg, #201032 37%, rgba(32, 16, 50,0.95) 51%, rgba(32, 15, 60,0.5) 100%);
+    background-size: cover;
+    height: 500px;
+}
+
+.afterblock>span{
+   font-size: 1vw;
+}
+
+.storiescontent{
+   display: flex;
+   justify-content: center;
+}
+
+.afterblock>h2{
+    font-size: 4vw;
+    color: #fff;
+    padding-bottom: 30px;
+ }
+.afterblock{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+strong{
+    color: #fff;
+}
+
+.spantext{
+    display: flex;
+    color: #fff;
+    gap: 20px;
+}
+
+.textblock{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    top: -100px;
+}
+
+.childblock{
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    gap: 25px;
+}
+
+.textblock2{
+    border: 1px solid;
+    width: 55%;
+    height: 37vw;
+    padding: 20px;
+    line-height: 2vw;  
+}
+
+.linktitle{
+    padding-bottom: 20px;
+    font-size: 1.8vw;
+}
+
+.textblock2>div>span{
+    color: #201032;
+    font-size: 1.2vw;
+}
+
+.textblock2>div{
+    font-size: 1.2vw;
+}
+
+.textblock1{
+    width: 50%;
+}
+
+.row{
+    font-size: 1.2vw;
+    color: #201032;
+}
+
+.datadriven{
+    width: 65%;
+    margin: auto;
+}
+
+.datablocks>h2{
+    font-size: 2.2vw;
+    padding-bottom: 20px;
+}
+
+.datablocks>p{
+    font-size: 1.2vw;
+    padding-bottom: 100px;
+}
+
+.linktitle{
+    text-align: center;
+}
+
+/* Privacy */
+
+.privacysection{
+    background: linear-gradient(360deg, #201032 95%, rgba(32, 16, 50,0.98) 51%, rgba(32, 15, 60,0.5) 100%);
+    width: 100%;
+}
+
+.privacycontent{
+    width: 92%;
+    margin: auto;
+    padding: 100px;
+}
+
+.privacyblocks{
+    color: #fff;
+    width: 67vw;
+    padding-bottom: 100px;
+}
+
+.privacyblocks>h2{
+    font-size: 3.3vw;
+    padding-bottom: 30px;
+    word-spacing: 0.5px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.privacyblocks>h3{
+    padding: 30px 0 20px 0;
+    position: relative;
+    left: -30px;
+    font-size: 2.5vw;
+}
+
+.privacyblocks,.spantext, p{
+    font-size: 1.3vw;
+    word-spacing: 0.5px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.spantext{
+    padding-bottom: 30px;
+}
+
+.privacylink{
+    color: #fff;
+    font-size: 1.1vw;
+    text-decoration: underline;
+}
+
+.identifers::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    display: block;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.identifers{
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+#link1{
+    transition: 2s ease-in-out;
+} 
 @media screen and (max-width: 992px) {
     .tel2{
         width: 2vw !important;
@@ -168,6 +341,74 @@ li{
        font-size: 1.5vw;
 
     }
+
+    /* Stories */
+
+    .textblock2{
+        border: 1px solid;
+        width: 100%;
+        height: 35vw;
+        padding: 20px;
+        line-height: 2.5vw;
+        
+    }
+    
+    .textblock2>div>span{
+        color: #201032;
+        font-size: 1.8vw;
+    }
+    
+    .textblock2>div{
+        font-size: 1.8vw;
+    }
+
+    .childblock{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .textblock1{
+        width: 100%;
+    }
+
+    .row{
+        font-size: 1.8vw;
+    }
+
+    .datablocks>p{
+        font-size: 1.8vw;
+    }
+
+    /* Privacy */
+
+    .privacyblocks>h2{
+        font-size: 4vw;
+    }
+
+    .privacyblocks>p{
+        font-size: 2.1vw;
+        line-height: 30px;
+    }
+
+    .spantext{
+        font-size: 2vw;
+    }
+
+    .privacylink{
+        font-size: 1.5vw;
+    }
+    .privacycontent{
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .privacyblocks>h3{
+        padding-bottom: 30px;
+        font-size: 3vw;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -192,43 +433,199 @@ li{
     }
 
     .firsttitle{
-        font-size: 3vw;
+        font-size: 4.5vw;
         line-height: 35px;
     }
 
+    .footertitle{
+        font-size: 2.5vw;
+
+    }
+
     .sp7{
-        font-size: 1.5vw;
+        font-size: 2.2vw;
         text-align: center;
         line-height: 10px;
         
     }
 
     .liLink{
-        font-size: 1.6vw;
+        font-size: 2.5vw;
     }
 
     .tel2{
-        width: 1.6vw !important;
-        height: 1.6vw !important;
+        width: 3vw !important;
+        height: 3vw !important;
         color: #f1c111;
        cursor: pointer;
     }
     
     .email{
-        width: 1.6vw !important;
-        height: 1.6vw !important;
+        width: 3vw !important;
+        height: 3vw !important;
         color: #f1c111;
         cursor: pointer;
     }
     
     .house{
-        font-size: 2vw !important;
+        width: 3.2vw !important;
+        height: 3.2vw !important;
         color: #f1c111;
     }
 
     .links{
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         padding: 20px 0 20px 0;
+    }
+
+    .houselink{
+        font-size: 2.5vw;
+        line-height: 23px;
+    }
+
+    /* Stories */
+
+    .textblock2{
+        border: 1px solid;
+        width: 100%;
+        height: 37vw;
+        padding: 20px;
+        line-height: 2.5vw;  
+    }
+
+    .afterblock>h2{
+        line-height: 50px;
+    }
+    
+    .linktitle{
+        padding-bottom: 20px;
+        font-size: 2.2vw;
+    }
+
+    .spantext{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .spantext>span{
+        font-size: 1.8vw;
+    }
+
+    /* Primacy */
+
+    .privacyblocks{
+        width: 100%;
+        padding-bottom: 90px;
+    }
+    .privacyblocks>h2{
+        font-size: 6.5vw;
+        padding-bottom: 30px;
+        word-spacing: 0.5px;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+
+    .privacyblocks>h3{
+        font-size: 4vw;
+    }
+    
+    .privacyblocks,.spantext, p{
+        font-size: 2.8vw;
+        padding-bottom: 30px;
+        word-spacing: 0.5px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    .privacyblocks>p{
+        font-size: 2.8vw;
+    }
+
+    .privacylink{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+
+    .privacycontent{
+        width: 100%;
+        margin: auto;  
+    }
+
+}
+
+@media screen and (max-width: 620px){
+    .textblock2{
+        border: 1px solid;
+        width: 100%;
+        height: 56vw;
+        padding: 20px;
+        line-height: 2.8vw;  
+    }
+    
+    .linktitle{
+        padding-bottom: 20px;
+        font-size: 2.8vw;
+    }
+
+    .textblock2>div>span{
+        color: #201032;
+        font-size: 2.3vw;
+    }
+
+    .textblock2>div{
+        font-size: 2.3vw;
+    }
+    .row{
+        font-size: 2.3vw;
+    }
+
+    .datablocks>p{
+        font-size: 2.3vw;
+    }
+
+    .datablocks>h2{
+        font-size: 2.8vw;
+    }
+
+    .spantext{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Privacy */
+
+    .privacyblocks>h2{
+        font-size: 4vw;
+        padding-bottom: 30px;
+        word-spacing: 0.5px;
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+
+    .privacyblocks>h3{
+        line-height: 30px;
+    }
+    
+    .privacyblocks,.spantext, p{
+        font-size: 3.2vw;
+        padding-bottom: 30px;
+        word-spacing: 0.5px;
+        letter-spacing: 1px;
+    }
+
+    .privacyblocks>p{
+        font-size: 2.8vw;
+        line-height: 25px;
+    }
+
+    .privacylink{
+        font-size: 2.6vw;
+        text-decoration: underline;
+    }
+    .privacycontent{
+        width: 100%;
+        margin: auto;
+        
     }
 }
 
@@ -313,6 +710,108 @@ li{
         background-color: #171819;
         width: 100%;
         height: 578px;
+    }
+
+    /* Stories */
+
+    .spantext{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linktitle{
+        font-size: 4vw;
+    }
+
+    .afterblock>h2{
+        font-size: 5vw;
+        line-height: 30px;
+    }
+
+    .textblock2{
+        border: 1px solid;
+        width: 100%;
+        height: 110vw;
+        padding: 15px;
+        line-height: 4vw;
+        
+    }
+    
+    .textblock2>div{
+        color: #201032;
+        font-size: 3.2vw;
+    }
+    
+    .textblock2>div{
+        font-size: 3.2vw;
+        line-height: 20px;
+    }
+
+    .childblock{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .textblock1{
+        width: 100%;
+    }
+
+    .row{
+        font-size: 4vw;
+    }
+
+    .datablocks>p{
+        font-size: 4.3vw;
+    }
+
+    .datablocks>h2{
+        font-size: 5.3vw;
+        line-height: 30px;
+    }
+
+    .spantext{
+        font-size: 3vw;
+        padding-bottom: 30px;
+        word-spacing: 0.5px;
+        letter-spacing: 1px;
+        line-height: 10px;
+    }
+
+    .spantext>span{
+        font-size: 3vw;
+    }
+
+    /* Primacy */
+    .privacycontent{
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+    .privacyblocks{
+        width: 100%;
+        padding-bottom: 90px;
+    }
+    .privacyblocks>h2{
+        font-size: 6vw;
+        padding-bottom: 30px;
+        word-spacing: 0.5px;
+        letter-spacing: 1px;
+    }
+
+    .privacyblocks>h3{
+        font-size: 5vw;
+    }
+
+    .privacyblocks>p{
+        font-size: 4vw;
+        line-height: 20px;
+    }
+
+    .privacylink{
+        font-size: 3.5vw;
+        text-decoration: underline;
+        line-height: 20px;
     }
 
 }
